@@ -1,0 +1,6 @@
+Matthew   Davenport 40   $2999.62
+Amber     Daniels   60   $2770.12
+James     Miller    100  $2539.12
+Thomas    Sanders   130  $1934.62
+Sophia    Foster    140  $1942.60
+Total $12186.10
