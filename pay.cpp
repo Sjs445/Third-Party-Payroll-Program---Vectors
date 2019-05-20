@@ -19,6 +19,7 @@ getCompanies(employees, companyNames);
 printHighestPaid(employees);
 seperateAndSave(employees, companyNames);
 
+cin.get();
   return 0;
 }
 
@@ -35,24 +36,19 @@ void readData(vector<Person>&employees)
   {
     Person P;
     inData>>firstName;
-    cin.clear();
     P.setFirstName(firstName);
     inData>>lastName;
-    cin.clear();
     P.setLastName(lastName);
     inData>>id;
     P.setEmployeeId(id);
     inData>>companyName;
-    cin.clear();
     P.setCompanyName(companyName);
     inData>>hoursWorked;
     P.setHoursWorked(hoursWorked);
     inData>>payRate;
     P.setPayRate(payRate);
-
     employees.push_back(P);
   }
-
   inData.close();
 }
 
