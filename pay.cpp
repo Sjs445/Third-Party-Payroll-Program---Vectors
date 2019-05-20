@@ -19,7 +19,6 @@ getCompanies(employees, companyNames);
 printHighestPaid(employees);
 seperateAndSave(employees, companyNames);
 
-cin.get();
   return 0;
 }
 
